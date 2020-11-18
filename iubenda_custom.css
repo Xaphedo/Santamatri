@@ -847,12 +847,12 @@ IMPORTANT: Changing the following values may prevent the notice from being displ
 }
 
 @media (min-width:0px){
-#purposes-container .purposes-buttons button.purposes-btn.purposes-btn-accept {
+#purposes-container .purposes-buttons button.purposes-btn.purposes-btn-accept, div#iub-cmp-widget .iub-cmp-toggle-buttons button.iub-cmp-enable-btn {
     background-color: #fff!important;
     border: 1px solid #444!important;
 }
 
-#purposes-container .purposes-buttons button.purposes-btn{
+#purposes-container .purposes-buttons button.purposes-btn, div#iub-cmp-widget .iub-cmp-toggle-buttons button{
     border-radius: 0px!important;
     border: 1px solid #999!important;
     background-color: #fff!important;
@@ -866,7 +866,7 @@ IMPORTANT: Changing the following values may prevent the notice from being displ
     color: #444!important;
 }
 
-#purposes-container .purposes-buttons button.purposes-btn.purposes-btn-accept:hover, #purposes-container .purposes-buttons button.purposes-btn:hover, #iubenda-iframe div#iubFooterBtnContainer button:hover, #purposes-container div.purposes-btn:hover {
+#purposes-container .purposes-buttons button.purposes-btn.purposes-btn-accept:hover, #purposes-container .purposes-buttons button.purposes-btn:hover, #iubenda-iframe div#iubFooterBtnContainer button:hover, #purposes-container div.purposes-btn:hover, div#iub-cmp-widget .iub-cmp-toggle-buttons button:hover {
   border-top-color: #fafafa!important;
   border-right-color: #fafafa!important;
   border-left-color: #fafafa!important;
@@ -879,7 +879,7 @@ IMPORTANT: Changing the following values may prevent the notice from being displ
     border-bottom-left-radius: 0px !important;
 }
 
-div#iubenda-iframe * {
+div#iubenda-iframe #iubenda-iframe-popup * {
     -webkit-transition: all 900ms cubic-bezier(.23, 1, .32, 1)!important;
     -moz-transition: all 900ms cubic-bezier(.23, 1, .32, 1)!important;
     -o-transition: all 900ms cubic-bezier(.23, 1, .32, 1)!important;
@@ -887,8 +887,13 @@ div#iubenda-iframe * {
     font-family: "Josefin Sans",sans-serif!important;
 }
 
-#purposes-container div.purposes-checkbox input.style1:checked{
-  background-color: #4aaf5d!important;
+div#iubenda-iframe #iubenda-iframe-popup .iub-legitimate-interest-checkbox input[type=checkbox]{
+    transition-duration: 100ms !important;
+    border-radius: 0px!important;
+}
+
+div#iubenda-iframe #iubenda-iframe-popup .iub-legitimate-interest-checkbox input[type=checkbox]:checked, #purposes-container div.purposes-checkbox input.style1:checked, div#iubenda-iframe #iubenda-iframe-popup #iub-cmp-widget .iub-cmp-name label input:checked+span span{
+    background-color:#4aaf5d!important;
 }
 
 #purposes-container span.purposes-badge-primary{
