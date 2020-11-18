@@ -59,7 +59,7 @@ IMPORTANT: Changing the following values may prevent the notice from being displ
 -----------------
 */
 #iubenda-cs-banner {
-  font-size: 15px !important;
+  font-size: 12px !important;
   background: none !important;
   line-height: 1.4 !important;
   position: fixed !important;
@@ -85,6 +85,13 @@ IMPORTANT: Changing the following values may prevent the notice from being displ
   /* default */
 }
 
+#iubenda-cs-banner .iubenda-cs-container [class^=iub] {
+    -webkit-transition: all 900ms cubic-bezier(.23, 1, .32, 1)!important;
+    -moz-transition: all 900ms cubic-bezier(.23, 1, .32, 1)!important;
+    -o-transition: all 900ms cubic-bezier(.23, 1, .32, 1)!important;
+    transition: all 900ms cubic-bezier(.23, 1, .32, 1)!important;
+}
+
 #iubenda-cs-banner [class*=" iub"],
 #iubenda-cs-banner [class^=iub],
 #iubenda-cs-banner .iubenda-banner-content:not(.iubenda-custom-content) * {
@@ -99,7 +106,7 @@ IMPORTANT: Changing the following values may prevent the notice from being displ
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0) !important;
   -webkit-backface-visibility: hidden !important;
   backface-visibility: hidden !important;
-  font-family: -apple-system, sans-serif !important;
+  font-family: 'Josefin Sans', sans-serif !important;
   text-decoration: none !important;
   color: currentColor !important;
   background-attachment: scroll !important;
@@ -576,6 +583,9 @@ IMPORTANT: Changing the following values may prevent the notice from being displ
 #iubenda-cs-banner #iubenda-cs-title {
   font-weight: bold !important;
   margin-bottom: 16px !important;
+  text-transform: uppercase;
+  font-size: 150%;
+  text-align: center;
 }
 
 #iubenda-cs-banner .iubenda-cs-opt-group {
@@ -645,9 +655,9 @@ IMPORTANT: Changing the following values may prevent the notice from being displ
   -moz-appearance: none !important;
   appearance: none !important;
   padding: 8px 32px !important;
-  border-radius: 64px !important;
+  border-radius: 0px !important;
   cursor: pointer !important;
-  font-weight: bold !important;
+  font-weight: 500 !important;
   font-size: 100% !important;
   margin-top: 4px !important;
   margin-bottom: 4px !important;
@@ -658,8 +668,11 @@ IMPORTANT: Changing the following values may prevent the notice from being displ
   opacity: 0.8 !important;
 }
 
-#iubenda-cs-banner .iubenda-cs-opt-group button:hover {
-  opacity: 0.5 !important;
+#iubenda-cs-banner .iubenda-cs-opt-group button:hover, #iubenda-cs-banner .iubenda-cs-opt-group button.iubenda-cs-btn-primary:hover, #iubenda-cs-banner .iubenda-cs-opt-group button.iubenda-cs-btn-primary:not(:last-of-type):hover {
+  opacity: 1 !important;
+  border-top-color: #fafafa!important;
+  border-right-color: #fafafa!important;
+  border-left-color: #fafafa!important;
 }
 
 @media (min-width: 640px) {
@@ -769,14 +782,15 @@ IMPORTANT: Changing the following values may prevent the notice from being displ
 
 #iubenda-cs-banner.iubenda-cs-default-floating .iubenda-cs-content {
   -webkit-box-shadow: 0 8px 48px rgba(0, 0, 0, 0.15) !important;
-  box-shadow: 0 8px 48px rgba(0, 0, 0, 0.15) !important;
+  box-shadow: 0 8px 48px rgba(0, 0, 0, 0.03) !important;
   padding: 8px !important;
 }
 
 @media (min-width: 992px) {
   #iubenda-cs-banner.iubenda-cs-default-floating .iubenda-cs-content {
-    border-radius: 4px !important;
-    margin: 16px !important;
+    border-radius: 0px !important;
+    margin: 16px!important;
+    margin-top: 80px!important;
   }
 }
 
@@ -795,8 +809,8 @@ IMPORTANT: Changing the following values may prevent the notice from being displ
 }
 
 #iubenda-cs-banner .iubenda-cs-content {
-  background-color: #000000 !important;
-  color: #FFFFFF !important;
+  background-color: #ffffffe8!important;
+  color: #333!important;
 }
 
 #iubenda-cs-banner .iubenda-cs-opt-group {
@@ -804,11 +818,18 @@ IMPORTANT: Changing the following values may prevent the notice from being displ
 }
 
 #iubenda-cs-banner .iubenda-cs-opt-group button {
-  background-color: rgba(255, 255, 255, 0.1) !important;
-  color: #FFFFFF !important;
+  background-color: #fff!important;
+  color: #333!important;
 }
 
 #iubenda-cs-banner .iubenda-cs-opt-group button.iubenda-cs-btn-primary {
-  background-color: #0073CE !important;
-  color: #FFFFFF !important;
+  background-color: #fff!important;
+  color: #333!important;
+  border: 1px solid #666!important;
+}
+
+
+#iubenda-cs-banner .iubenda-cs-opt-group button.iubenda-cs-btn-primary:not(:last-of-type){
+  color: #666!important;
+  border: 1px solid #999!important;
 }
