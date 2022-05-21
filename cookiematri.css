@@ -1,0 +1,851 @@
+/*
+-----------------
+IMPORTANT: Changing the following values may prevent the notice from being displayed properly.
+-----------------
+*/
+#cookiematri-cs-banner {
+  font-size: 12px !important;
+  background: none !important;
+  line-height: 1.4 !important;
+  position: fixed !important;
+  z-index: 99999998 !important;
+  top: 0 !important;
+  left: 0 !important;
+  width: 100% !important;
+  height: 100% !important;
+  border: 0 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  overflow: hidden !important;
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  will-change: opacity, visibility;
+  opacity: 0 !important;
+  visibility: hidden !important;
+  pointer-events: none !important;
+  -webkit-transition: opacity 0.4s ease, visibility 0.4s ease !important;
+  -o-transition: opacity 0.4s ease, visibility 0.4s ease !important;
+  transition: opacity 0.4s ease, visibility 0.4s ease !important;
+  /* default */
+}
+
+#cookiematri-cs-banner .cookiematri-cs-container [class^=ckiematri] {
+    -webkit-transition: all 900ms cubic-bezier(.23, 1, .32, 1)!important;
+    -moz-transition: all 900ms cubic-bezier(.23, 1, .32, 1)!important;
+    -o-transition: all 900ms cubic-bezier(.23, 1, .32, 1)!important;
+    transition: all 900ms cubic-bezier(.23, 1, .32, 1)!important;
+}
+
+#cookiematri-cs-banner [class*=" ckiematri"],
+#cookiematri-cs-banner [class^=ckiematri],
+#cookiematri-cs-banner .cookiematri-banner-content:not(.cookiematri-custom-content) * {
+  font-size: 100% !important;
+  width: auto !important;
+  -webkit-appearance: none !important;
+  -moz-appearance: none !important;
+  appearance: none !important;
+  background: none !important;
+  -webkit-box-sizing: border-box !important;
+  box-sizing: border-box !important;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0) !important;
+  -webkit-backface-visibility: hidden !important;
+  backface-visibility: hidden !important;
+  font-family: 'Josefin Sans', sans-serif !important;
+  text-decoration: none !important;
+  color: currentColor !important;
+  background-attachment: scroll !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  background-position: 0 0 !important;
+  background-repeat: repeat !important;
+  border: 0 !important;
+  border-color: #000 !important;
+  border-color: currentColor !important;
+  border-radius: 0 !important;
+  border-style: none !important;
+  border-width: medium !important;
+  bottom: auto !important;
+  clear: none !important;
+  clip: auto !important;
+  counter-increment: none !important;
+  counter-reset: none !important;
+  cursor: auto !important;
+  direction: inherit !important;
+  float: none !important;
+  font-style: inherit !important;
+  font-variant: normal !important;
+  font-weight: inherit !important;
+  height: auto !important;
+  left: auto !important;
+  letter-spacing: normal !important;
+  line-height: inherit !important;
+  list-style-type: inherit !important;
+  list-style-position: outside !important;
+  list-style-image: none !important;
+  margin: 0 !important;
+  max-height: none !important;
+  max-width: none !important;
+  min-height: 0 !important;
+  min-width: 0 !important;
+  opacity: 1;
+  outline: 0 !important;
+  overflow: visible !important;
+  padding: 0 !important;
+  position: static !important;
+  quotes: "" "" !important;
+  right: auto !important;
+  table-layout: auto !important;
+  text-align: left !important;
+  text-indent: 0 !important;
+  text-transform: none !important;
+  top: auto !important;
+  unicode-bidi: normal !important;
+  vertical-align: baseline !important;
+  visibility: inherit !important;
+  white-space: normal !important;
+  width: auto !important;
+  word-spacing: normal !important;
+  z-index: auto !important;
+  background-origin: padding-box !important;
+  background-origin: padding-box !important;
+  background-clip: border-box !important;
+  background-size: auto !important;
+  -o-border-image: none !important;
+  border-image: none !important;
+  border-radius: 0 !important;
+  border-radius: 0 !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+  -webkit-column-count: auto !important;
+  -moz-column-count: auto !important;
+  column-count: auto !important;
+  -webkit-column-gap: normal !important;
+  -moz-column-gap: normal !important;
+  column-gap: normal !important;
+  -webkit-column-rule: medium none #000 !important;
+  -moz-column-rule: medium none #000 !important;
+  column-rule: medium none #000 !important;
+  -webkit-column-span: none !important;
+  -moz-column-span: none !important;
+  column-span: none !important;
+  -webkit-column-width: auto !important;
+  -moz-column-width: auto !important;
+  column-width: auto !important;
+  -webkit-font-feature-settings: normal !important;
+  font-feature-settings: normal !important;
+  overflow-x: visible !important;
+  overflow-y: visible !important;
+  -webkit-hyphens: manual !important;
+  -ms-hyphens: manual !important;
+  hyphens: manual !important;
+  -webkit-perspective: none !important;
+  perspective: none !important;
+  -webkit-perspective-origin: 50% 50% !important;
+  perspective-origin: 50% 50% !important;
+  text-shadow: none !important;
+  -webkit-transition: all 0s ease 0s !important;
+  -o-transition: all 0s ease 0s !important;
+  transition: all 0s ease 0s !important;
+  -webkit-transform: none !important;
+  -ms-transform: none !important;
+  transform: none !important;
+  -webkit-transform-origin: 50% 50% !important;
+  -ms-transform-origin: 50% 50% !important;
+  transform-origin: 50% 50% !important;
+  -webkit-transform-style: flat !important;
+  transform-style: flat !important;
+  word-break: normal !important;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+#cookiematri-cs-banner .ckiematri-popover-trigger {
+  display: inline-block !important;
+  text-decoration: underline !important;
+  -webkit-text-decoration-style: dashed !important;
+  text-decoration-style: dashed !important;
+  position: relative !important;
+  margin-right: 16px !important;
+  cursor: pointer !important;
+  line-height: 1.25 !important;
+}
+
+#cookiematri-cs-banner .ckiematri-popover-trigger:before, #cookiematri-cs-banner .ckiematri-popover-trigger:after {
+  content: "";
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  border-radius: 12px;
+  vertical-align: middle;
+  background-size: 4px;
+  position: absolute;
+  left: calc(100% + 2px);
+  top: 3px;
+}
+
+#cookiematri-cs-banner .ckiematri-popover-trigger:before {
+  background-color: currentColor;
+  opacity: 0.35;
+}
+
+#cookiematri-cs-banner .ckiematri-popover-trigger:after {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='7' height='13' viewBox='0 0 7 13'%3E%3Cg fill='%23FFF' fill-rule='evenodd'%3E%3Cpath d='M2.779 1.288a1.287 1.287 0 112.574 0 1.287 1.287 0 01-2.574 0zM5.467 10.422l.903 1.851-.7.341a2.496 2.496 0 01-3.545-2.717l.818-3.252a.42.42 0 00-.178-.382.422.422 0 00-.452-.041l-.844.412-.902-1.852.843-.412a2.491 2.491 0 012.576.233 2.49 2.49 0 01.989 2.389 1.105 1.105 0 01-.02.095l-.817 3.253a.42.42 0 00.178.382c.08.059.244.142.451.041l.7-.341z'/%3E%3C/g%3E%3C/svg%3E");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#cookiematri-cs-banner .ckiematri-popover {
+  position: absolute !important;
+  top: 24px !important;
+  bottom: 0 !important;
+  left: 0 !important;
+  right: 0 !important;
+  border-radius: 4px !important;
+  background-color: white !important;
+  color: #222 !important;
+  z-index: 2 !important;
+  -webkit-box-shadow: 0 0 32px rgba(0, 0, 0, 0.1) !important;
+  box-shadow: 0 0 32px rgba(0, 0, 0, 0.1) !important;
+  opacity: 0 !important;
+  visibility: hidden !important;
+  -webkit-transform: translateY(24px) !important;
+  -ms-transform: translateY(24px) !important;
+  transform: translateY(24px) !important;
+  -webkit-transition: opacity 0.3s ease, visibility 0.3s ease, -webkit-transform 0.3s ease !important;
+  transition: opacity 0.3s ease, visibility 0.3s ease, -webkit-transform 0.3s ease !important;
+  -o-transition: opacity 0.3s ease, visibility 0.3s ease, transform 0.3s ease !important;
+  transition: opacity 0.3s ease, visibility 0.3s ease, transform 0.3s ease !important;
+  transition: opacity 0.3s ease, visibility 0.3s ease, transform 0.3s ease, -webkit-transform 0.3s ease !important;
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -webkit-box-orient: vertical !important;
+  -webkit-box-direction: normal !important;
+  -ms-flex-direction: column !important;
+  flex-direction: column !important;
+  z-index: 99 !important;
+  pointer-events: none !important;
+  overflow: hidden !important;
+}
+
+#cookiematri-cs-banner .ckiematri-popover-header {
+  -ms-flex-negative: 0 !important;
+  flex-shrink: 0 !important;
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -webkit-box-pack: justify !important;
+  -ms-flex-pack: justify !important;
+  justify-content: space-between !important;
+  z-index: 1 !important;
+  -webkit-box-shadow: 0 16px 16px #FFF !important;
+  box-shadow: 0 16px 16px #FFF !important;
+}
+
+#cookiematri-cs-banner .ckiematri-popover-header > * {
+  padding: 24px !important;
+  padding-bottom: 0 !important;
+}
+
+#cookiematri-cs-banner .ckiematri-popover-header-title {
+  font-size: 18px !important;
+  font-weight: bold !important;
+}
+
+#cookiematri-cs-banner .ckiematri-popover-header-close {
+  font-size: 24px !important;
+  font-weight: 300 !important;
+  cursor: pointer !important;
+  line-height: 1 !important;
+  position: relative !important;
+  top: -2px !important;
+}
+
+#cookiematri-cs-banner .ckiematri-popover-content {
+  font-size: 14px !important;
+  -webkit-box-flex: 1 !important;
+  -ms-flex: 1 !important;
+  flex: 1 !important;
+  font-weight: 300 !important;
+  line-height: 1.5 !important;
+  position: relative !important;
+}
+
+#cookiematri-cs-banner .ckiematri-popover-content > div {
+  padding: 0 24px !important;
+  overflow-y: auto !important;
+  height: 100% !important;
+}
+
+#cookiematri-cs-banner .ckiematri-popover-content > div:before, #cookiematri-cs-banner .ckiematri-popover-content > div:after {
+  content: "";
+  display: block;
+  height: 24px;
+}
+
+#cookiematri-cs-banner .ckiematri-popover-content h3 {
+  margin-bottom: 16px !important;
+  font-weight: bold !important;
+}
+
+#cookiematri-cs-banner .ckiematri-popover-content p:not(:last-of-type) {
+  margin-bottom: 16px !important;
+}
+
+#cookiematri-cs-banner .ckiematri-popover-content a {
+  text-decoration: underline !important;
+  cursor: pointer !important;
+  opacity: 0.8 !important;
+}
+
+#cookiematri-cs-banner .ckiematri-popover-content b, #cookiematri-cs-banner .ckiematri-popover-content strong {
+  font-weight: bold !important;
+}
+
+#cookiematri-cs-banner .ckiematri-popover-content i, #cookiematri-cs-banner .ckiematri-popover-content em {
+  font-style: italic !important;
+}
+
+#cookiematri-cs-banner .ckiematri-popover-content:after {
+  position: absolute;
+  content: "";
+  display: block;
+  height: 24px;
+  pointer-events: none;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0)), to(white));
+  background: -o-linear-gradient(top, rgba(255, 255, 255, 0) 0%, white 100%);
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, white 100%);
+}
+
+#cookiematri-cs-banner.cookiematri-cs-default-floating .ckiematri-popover {
+  left: 8px !important;
+  right: 8px !important;
+}
+
+@media (min-width: 640px) {
+  #cookiematri-cs-banner.cookiematri-cs-default .ckiematri-popover {
+    max-width: 992px !important;
+    margin: 0 auto !important;
+  }
+  #cookiematri-cs-banner.cookiematri-cs-default.cookiematri-cs-top .ckiematri-popover {
+    top: 16px !important;
+    bottom: -16px !important;
+  }
+  #cookiematri-cs-banner.cookiematri-cs-default.cookiematri-cs-bottom .ckiematri-popover {
+    top: -16px !important;
+    bottom: 16px !important;
+  }
+}
+
+#cookiematri-cs-banner.ckiematri-popover-visible .ckiematri-popover {
+  opacity: 1 !important;
+  visibility: visible !important;
+  -webkit-transform: translateY(0) !important;
+  -ms-transform: translateY(0) !important;
+  transform: translateY(0) !important;
+  pointer-events: auto !important;
+}
+
+#cookiematri-cs-banner.cookiematri-cs-overlay:before {
+  content: "" !important;
+  position: fixed !important;
+  top: 0 !important;
+  left: 0 !important;
+  width: 100% !important;
+  height: 100% !important;
+  background-color: rgba(0, 0, 0, 0.5) !important;
+  z-index: 1 !important;
+}
+
+#cookiematri-cs-banner.cookiematri-cs-center {
+  -webkit-box-align: center !important;
+  -ms-flex-align: center !important;
+  align-items: center !important;
+  -webkit-box-pack: center !important;
+  -ms-flex-pack: center !important;
+  justify-content: center !important;
+}
+
+#cookiematri-cs-banner.cookiematri-cs-top {
+  -webkit-box-align: start !important;
+  -ms-flex-align: start !important;
+  align-items: flex-start !important;
+}
+
+#cookiematri-cs-banner.cookiematri-cs-bottom {
+  -webkit-box-align: end !important;
+  -ms-flex-align: end !important;
+  align-items: flex-end !important;
+}
+
+#cookiematri-cs-banner.cookiematri-cs-left {
+  -webkit-box-pack: start !important;
+  -ms-flex-pack: start !important;
+  justify-content: flex-start !important;
+}
+
+#cookiematri-cs-banner.cookiematri-cs-right {
+  -webkit-box-pack: end !important;
+  -ms-flex-pack: end !important;
+  justify-content: flex-end !important;
+}
+
+#cookiematri-cs-banner.cookiematri-cs-visible {
+  opacity: 1 !important;
+  visibility: visible !important;
+}
+
+#cookiematri-cs-banner.cookiematri-cs-visible .cookiematri-cs-container {
+  pointer-events: auto !important;
+}
+
+#cookiematri-cs-banner.cookiematri-cs-slidein .cookiematri-cs-container {
+  -webkit-transition: -webkit-transform 0.4s ease !important;
+  transition: -webkit-transform 0.4s ease !important;
+  -o-transition: transform 0.4s ease !important;
+  transition: transform 0.4s ease !important;
+  transition: transform 0.4s ease, -webkit-transform 0.4s ease !important;
+}
+
+#cookiematri-cs-banner.cookiematri-cs-slidein.cookiematri-cs-top .cookiematri-cs-container {
+  -webkit-transform: translateY(-48px) !important;
+  -ms-transform: translateY(-48px) !important;
+  transform: translateY(-48px) !important;
+}
+
+#cookiematri-cs-banner.cookiematri-cs-slidein.cookiematri-cs-bottom .cookiematri-cs-container {
+  -webkit-transform: translateY(48px) !important;
+  -ms-transform: translateY(48px) !important;
+  transform: translateY(48px) !important;
+}
+
+#cookiematri-cs-banner.cookiematri-cs-slidein.cookiematri-cs-visible .cookiematri-cs-container {
+  -webkit-transform: translateY(0) !important;
+  -ms-transform: translateY(0) !important;
+  transform: translateY(0) !important;
+}
+
+#cookiematri-cs-banner .cookiematri-cs-container {
+  position: relative !important;
+  z-index: 2 !important;
+}
+
+#cookiematri-cs-banner .cookiematri-cs-brand {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  padding: 16px !important;
+}
+
+#cookiematri-cs-banner .cookiematri-cs-brand > div {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -webkit-box-pack: start !important;
+  -ms-flex-pack: start !important;
+  justify-content: flex-start !important;
+}
+
+#cookiematri-cs-banner .cookiematri-cs-brand img {
+  max-width: 192px !important;
+  max-height: 56px !important;
+}
+
+#cookiematri-cs-banner .cookiematri-cs-content {
+  position: relative !important;
+  z-index: 1 !important;
+  overflow: hidden !important;
+  -webkit-transition: -webkit-transform 0.4s ease !important;
+  transition: -webkit-transform 0.4s ease !important;
+  -o-transition: transform 0.4s ease !important;
+  transition: transform 0.4s ease !important;
+  transition: transform 0.4s ease, -webkit-transform 0.4s ease !important;
+}
+
+#cookiematri-cs-banner .cookiematri-cs-rationale {
+  position: relative !important;
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -webkit-box-orient: vertical !important;
+  -webkit-box-direction: normal !important;
+  -ms-flex-direction: column !important;
+  flex-direction: column !important;
+}
+
+#cookiematri-cs-banner .cookiematri-cs-close-btn {
+  position: absolute !important;
+  top: -2px !important;
+  padding: 16px !important;
+  right: 0 !important;
+  min-width: 48px !important;
+  height: 48px !important;
+  font-size: 24px !important;
+  line-height: 0 !important;
+  font-weight: lighter !important;
+  cursor: pointer !important;
+  text-align: center !important;
+}
+
+#cookiematri-cs-banner .cookiematri-cs-close-btn:hover {
+  opacity: 0.5 !important;
+}
+
+#cookiematri-cs-banner .cookiematri-banner-content {
+  font-weight: 300 !important;
+  margin: 16px !important;
+  margin-bottom: 0 !important;
+  -webkit-box-flex: 1 !important;
+  -ms-flex: 1 !important;
+  flex: 1 !important;
+  overflow-y: auto !important;
+  mask-image: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0)), color-stop(15%, black)) !important;
+  mask-image: linear-gradient(to top, rgba(0, 0, 0, 0) 0%, black 15%) !important;
+  -webkit-mask-image: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0)), color-stop(15%, black)) !important;
+  -webkit-mask-image: linear-gradient(to top, rgba(0, 0, 0, 0) 0%, black 15%) !important;
+  padding-bottom: 32px !important;
+}
+
+#cookiematri-cs-banner .cookiematri-banner-content-padded {
+  padding-right: 32px !important;
+}
+
+#cookiematri-cs-banner .cookiematri-banner-content a {
+  cursor: pointer !important;
+  color: currentColor !important;
+  opacity: 0.7 !important;
+  text-decoration: underline !important;
+}
+
+#cookiematri-cs-banner .cookiematri-banner-content a:hover {
+  opacity: 1 !important;
+}
+
+#cookiematri-cs-banner #cookiematri-cs-title {
+  font-weight: bold !important;
+  margin-bottom: 16px !important;
+  text-transform: uppercase;
+  font-size: 150%;
+  text-align: center;
+}
+
+#cookiematri-cs-banner .cookiematri-cs-opt-group {
+  margin: 16px !important;
+  z-index: 1 !important;
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  margin-top: 0 !important;
+}
+
+#cookiematri-cs-banner .cookiematri-cs-opt-group > div {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+}
+
+@media (min-width: 640px) {
+  #cookiematri-cs-banner .cookiematri-cs-opt-group {
+    -webkit-box-align: center !important;
+    -ms-flex-align: center !important;
+    align-items: center !important;
+    -webkit-box-pack: justify !important;
+    -ms-flex-pack: justify !important;
+    justify-content: space-between !important;
+  }
+  #cookiematri-cs-banner .cookiematri-cs-opt-group-custom {
+    margin-right: auto !important;
+    -ms-flex-item-align: start !important;
+    align-self: start !important;
+    -webkit-box-pack: start !important;
+    -ms-flex-pack: start !important;
+    justify-content: flex-start !important;
+  }
+  #cookiematri-cs-banner .cookiematri-cs-opt-group-consent {
+    margin-left: auto !important;
+    -ms-flex-item-align: end !important;
+    align-self: end !important;
+    -webkit-box-pack: end !important;
+    -ms-flex-pack: end !important;
+    justify-content: flex-end !important;
+  }
+}
+
+@media (max-width: 639px) {
+  #cookiematri-cs-banner .cookiematri-cs-opt-group {
+    margin: 12px !important;
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+    -ms-flex-direction: column !important;
+    flex-direction: column !important;
+  }
+  #cookiematri-cs-banner .cookiematri-cs-opt-group-custom {
+    -webkit-box-ordinal-group: 3;
+    -ms-flex-order: 2;
+    order: 2;
+  }
+  #cookiematri-cs-banner .cookiematri-cs-opt-group-consent {
+    -webkit-box-ordinal-group: 2;
+    -ms-flex-order: 1;
+    order: 1;
+  }
+}
+
+#cookiematri-cs-banner .cookiematri-cs-opt-group button {
+  -webkit-appearance: none !important;
+  -moz-appearance: none !important;
+  appearance: none !important;
+  padding: 8px 32px !important;
+  border-radius: 0px !important;
+  cursor: pointer !important;
+  font-weight: 500 !important;
+  font-size: 100% !important;
+  margin-top: 4px !important;
+  margin-bottom: 4px !important;
+  text-align: center !important;
+}
+
+#cookiematri-cs-banner .cookiematri-cs-opt-group button:focus {
+  opacity: 0.8 !important;
+}
+
+#cookiematri-cs-banner .cookiematri-cs-opt-group button:hover, #cookiematri-cs-banner .cookiematri-cs-opt-group button.cookiematri-cs-btn-primary:hover, #cookiematri-cs-banner .cookiematri-cs-opt-group button.cookiematri-cs-btn-primary:not(:last-of-type):hover {
+  opacity: 1 !important;
+  border-top-color: #fafafa!important;
+  border-right-color: #fafafa!important;
+  border-left-color: #fafafa!important;
+}
+
+@media (min-width: 640px) {
+  #cookiematri-cs-banner .cookiematri-cs-opt-group button:not(:last-of-type) {
+    margin-right: 8px !important;
+  }
+}
+
+@media (max-width: 639px) {
+  #cookiematri-cs-banner .cookiematri-cs-opt-group button {
+    padding: 8px 24px !important;
+    width: 100% !important;
+    display: block;
+    text-align: center !important;
+    margin: 6px 3px !important;
+  }
+}
+
+#cookiematri-cs-banner.cookiematri-cs-default .cookiematri-cs-brand {
+  margin: 0 -8px 0 !important;
+}
+
+@media (max-width: 991px) {
+  #cookiematri-cs-banner.cookiematri-cs-default .cookiematri-cs-brand {
+    margin: -8px -8px 0 !important;
+  }
+}
+
+@media (min-width: 992px) {
+  #cookiematri-cs-banner.cookiematri-cs-default .cookiematri-cs-brand div {
+    margin: 0 auto !important;
+    width: calc(992px - 32px) !important;
+  }
+}
+
+@media (max-width: 991px) {
+  #cookiematri-cs-banner.cookiematri-cs-default .cookiematri-cs-brand div {
+    margin: 0 8px !important;
+  }
+}
+
+#cookiematri-cs-banner.cookiematri-cs-default .cookiematri-cs-container {
+  width: 100% !important;
+}
+
+@media (min-width: 992px) {
+  #cookiematri-cs-banner.cookiematri-cs-default .cookiematri-cs-rationale {
+    width: 992px !important;
+    margin: 16px auto !important;
+  }
+}
+
+@media (max-width: 991px) {
+  #cookiematri-cs-banner.cookiematri-cs-default .cookiematri-cs-content {
+    padding: 8px !important;
+  }
+}
+
+#cookiematri-cs-banner.cookiematri-cs-default-floating .cookiematri-cs-brand {
+  margin: -8px -8px 0 !important;
+}
+
+#cookiematri-cs-banner.cookiematri-cs-default-floating .cookiematri-cs-brand div {
+  margin: 8px !important;
+}
+
+@media (min-width: 992px) {
+  #cookiematri-cs-banner.cookiematri-cs-default-floating .cookiematri-cs-container {
+    width: 992px !important;
+  }
+}
+
+@media (min-width: 640px) {
+  #cookiematri-cs-banner.cookiematri-cs-default-floating:not(.cookiematri-cs-top):not(.cookiematri-cs-center) .cookiematri-cs-container, #cookiematri-cs-banner.cookiematri-cs-default-floating:not(.cookiematri-cs-bottom):not(.cookiematri-cs-center) .cookiematri-cs-container, #cookiematri-cs-banner.cookiematri-cs-default-floating.cookiematri-cs-center:not(.cookiematri-cs-top):not(.cookiematri-cs-bottom) .cookiematri-cs-container {
+    width: 480px !important;
+  }
+}
+
+#cookiematri-cs-banner.cookiematri-cs-default-floating:not(.cookiematri-cs-top):not(.cookiematri-cs-center) .cookiematri-cs-opt-group, #cookiematri-cs-banner.cookiematri-cs-default-floating:not(.cookiematri-cs-bottom):not(.cookiematri-cs-center) .cookiematri-cs-opt-group, #cookiematri-cs-banner.cookiematri-cs-default-floating.cookiematri-cs-center:not(.cookiematri-cs-top):not(.cookiematri-cs-bottom) .cookiematri-cs-opt-group {
+  -webkit-box-orient: vertical !important;
+  -webkit-box-direction: normal !important;
+  -ms-flex-direction: column !important;
+  flex-direction: column !important;
+}
+
+#cookiematri-cs-banner.cookiematri-cs-default-floating:not(.cookiematri-cs-top):not(.cookiematri-cs-center) .cookiematri-cs-opt-group > div, #cookiematri-cs-banner.cookiematri-cs-default-floating:not(.cookiematri-cs-bottom):not(.cookiematri-cs-center) .cookiematri-cs-opt-group > div, #cookiematri-cs-banner.cookiematri-cs-default-floating.cookiematri-cs-center:not(.cookiematri-cs-top):not(.cookiematri-cs-bottom) .cookiematri-cs-opt-group > div {
+  width: 100% !important;
+}
+
+#cookiematri-cs-banner.cookiematri-cs-default-floating:not(.cookiematri-cs-top):not(.cookiematri-cs-center) .cookiematri-cs-opt-group button, #cookiematri-cs-banner.cookiematri-cs-default-floating:not(.cookiematri-cs-bottom):not(.cookiematri-cs-center) .cookiematri-cs-opt-group button, #cookiematri-cs-banner.cookiematri-cs-default-floating.cookiematri-cs-center:not(.cookiematri-cs-top):not(.cookiematri-cs-bottom) .cookiematri-cs-opt-group button {
+  display: block !important;
+  width: 100% !important;
+  text-align: center !important;
+}
+
+#cookiematri-cs-banner.cookiematri-cs-default-floating:not(.cookiematri-cs-top):not(.cookiematri-cs-center) .cookiematri-cs-opt-group-custom, #cookiematri-cs-banner.cookiematri-cs-default-floating:not(.cookiematri-cs-bottom):not(.cookiematri-cs-center) .cookiematri-cs-opt-group-custom, #cookiematri-cs-banner.cookiematri-cs-default-floating.cookiematri-cs-center:not(.cookiematri-cs-top):not(.cookiematri-cs-bottom) .cookiematri-cs-opt-group-custom {
+  -webkit-box-ordinal-group: 3;
+  -ms-flex-order: 2;
+  order: 2;
+}
+
+#cookiematri-cs-banner.cookiematri-cs-default-floating:not(.cookiematri-cs-top):not(.cookiematri-cs-center) .cookiematri-cs-opt-group-consent, #cookiematri-cs-banner.cookiematri-cs-default-floating:not(.cookiematri-cs-bottom):not(.cookiematri-cs-center) .cookiematri-cs-opt-group-consent, #cookiematri-cs-banner.cookiematri-cs-default-floating.cookiematri-cs-center:not(.cookiematri-cs-top):not(.cookiematri-cs-bottom) .cookiematri-cs-opt-group-consent {
+  -webkit-box-ordinal-group: 2;
+  -ms-flex-order: 1;
+  order: 1;
+}
+
+#cookiematri-cs-banner.cookiematri-cs-default-floating .cookiematri-cs-content {
+  -webkit-box-shadow: 0 8px 48px rgba(0, 0, 0, 0.15) !important;
+  box-shadow: 0 8px 48px rgba(0, 0, 0, 0.03) !important;
+  padding: 8px !important;
+}
+
+@media (min-width: 992px) {
+  #cookiematri-cs-banner.cookiematri-cs-default-floating .cookiematri-cs-content {
+    border-radius: 0px !important;
+    margin: 16px!important;
+    margin-top: 80px!important;
+  }
+}
+
+#cookiematri-cs-banner.cookiematri-cs-fix-height .cookiematri-cs-container,
+#cookiematri-cs-banner.cookiematri-cs-fix-height .cookiematri-cs-content,
+#cookiematri-cs-banner.cookiematri-cs-fix-height .cookiematri-cs-rationale {
+  height: 100% !important;
+}
+
+#cookiematri-cs-banner.cookiematri-cs-fix-height.cookiematri-cs-default-floating .cookiematri-cs-content {
+  height: calc(100% - 32px) !important;
+}
+
+#cookiematri-cs-banner.cookiematri-cs-fix-height .cookiematri-cs-brand img {
+  max-width: 75% !important;
+}
+
+#cookiematri-cs-banner .cookiematri-cs-content {
+  background-color: #ffffffe8!important;
+  color: #333!important;
+}
+
+#cookiematri-cs-banner .cookiematri-cs-opt-group {
+  color: #000000 !important;
+}
+
+#cookiematri-cs-banner .cookiematri-cs-opt-group button {
+  background-color: #fff!important;
+  color: #333!important;
+  text-transform: lowercase!important;
+}
+
+#cookiematri-cs-banner .cookiematri-cs-opt-group button.cookiematri-cs-btn-primary {
+  background-color: #fff!important;
+  color: #333!important;
+  border: 1px solid #666!important;
+}
+
+
+#cookiematri-cs-banner .cookiematri-cs-opt-group button.cookiematri-cs-btn-primary:not(:last-of-type){
+  color: #666!important;
+  border: 1px solid #999!important;
+}
+
+#cookiematri-cs-banner .cookiematri-cs-customize-btn{
+  border: 1px solid #fafafa!important;
+}
+
+#cookiematri-cs-banner .cookiematri-cs-customize-btn:hover{
+  border: 1px solid #999!important;
+  border-top-color: #fafafa!important;
+  border-right-color: #fafafa!important;
+  border-left-color: #fafafa!important;
+}
+
+@media (min-width:0px){
+#purposes-container .purposes-buttons button.purposes-btn.purposes-btn-accept, div#ckiematri-cmp-widget .ckiematri-cmp-toggle-buttons button.ckiematri-cmp-enable-btn {
+    background-color: #fff!important;
+    border: 1px solid #444!important;
+}
+
+#purposes-container .purposes-buttons button.purposes-btn, div#ckiematri-cmp-widget .ckiematri-cmp-toggle-buttons button{
+    border-radius: 0px!important;
+    border: 1px solid #999!important;
+    background-color: #fff!important;
+    opacity: 0.8!important;
+}
+
+#cookiematri-iframe div#ckiematriFooterBtnContainer button{
+    border-radius: 0px !important;
+    background-color: #fff!important;
+    border: 2px solid #666!important;
+    color: #444!important;
+}
+
+#purposes-container .purposes-buttons button.purposes-btn.purposes-btn-accept:hover, #purposes-container .purposes-buttons button.purposes-btn:hover, #cookiematri-iframe div#ckiematriFooterBtnContainer button:hover, #purposes-container div.purposes-btn:hover, div#ckiematri-cmp-widget .ckiematri-cmp-toggle-buttons button:hover {
+  border-top-color: #fafafa!important;
+  border-right-color: #fafafa!important;
+  border-left-color: #fafafa!important;
+}
+
+#purposes-container div.purposes-btn, #purposes-container button.purposes-btn{
+    border-top-left-radius: 0px !important;
+    border-top-right-radius: 0px !important;
+    border-bottom-right-radius: 0px !important;
+    border-bottom-left-radius: 0px !important;
+}
+
+div#cookiematri-iframe #cookiematri-iframe-popup * {
+    -webkit-transition: all 900ms cubic-bezier(.23, 1, .32, 1)!important;
+    -moz-transition: all 900ms cubic-bezier(.23, 1, .32, 1)!important;
+    -o-transition: all 900ms cubic-bezier(.23, 1, .32, 1)!important;
+    transition: all 900ms cubic-bezier(.23, 1, .32, 1)!important;
+    font-family: "Josefin Sans",sans-serif!important;
+}
+
+div#cookiematri-iframe #cookiematri-iframe-popup .ckiematri-legitimate-interest-checkbox input[type=checkbox]{
+    transition-duration: 100ms !important;
+    border-radius: 0px!important;
+}
+
+div#cookiematri-iframe #cookiematri-iframe-popup .ckiematri-legitimate-interest-checkbox input[type=checkbox]:checked, #purposes-container div.purposes-checkbox input.style1:checked, div#cookiematri-iframe #cookiematri-iframe-popup #ckiematri-cmp-widget .ckiematri-cmp-name label input:checked+span span{
+    background-color:#4aaf5d!important;
+}
+
+#purposes-container span.purposes-badge-primary{
+  color: #4aaf5d!important;  
+}
+
+#purposes-container div.purposes-checkbox input.style1:checked.half {
+    background-color: #f4ca14!important;
+}
+}
