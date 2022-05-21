@@ -29,7 +29,7 @@ window.onload = function(){
      var bannerselect = document.getElementById('cookiematri-cs-banner'); bannerselect.classList.add('cookiebanner-hide');
      gtag('consent', 'update', { 'ad_storage': 'denied', 'analytics_storage': 'denied' });
 	});
-	var acceptelement = document.getElementById('cookiematri-reject');
+	var acceptelement = document.getElementById('cookiematri-accept');
 	acceptelement.addEventListener("click", function() {
      var bannerselect = document.getElementById('cookiematri-cs-banner'); bannerselect.classList.add('cookiebanner-hide');
      gtag('consent', 'update', { 'analytics_storage': 'granted' });
