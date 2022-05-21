@@ -3,6 +3,11 @@
 IMPORTANT: Changing the following values may prevent the notice from being displayed properly.
 -----------------
 */
+#cookiematri-cs-banner.cookiebanner-hide{
+  display:none!important;
+}
+
+
 #cookiematri-cs-banner {
   font-size: 12px !important;
   background: none !important;
