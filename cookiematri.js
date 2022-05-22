@@ -23,24 +23,33 @@
     });
 
 //Add onlick property to the cookie consent banner buttons
-/*window.onload = function(){ 
+window.addEventListener('load', (event) => {
 	var rejectelement = document.getElementById('cookiematri-reject');
 	rejectelement.addEventListener("click", function() {
-     var bannerselect = document.getElementById('cookiematri-cs-banner'); bannerselect.classList.add('cookiebanner-hide');
-     gtag('consent', 'update', { 'ad_storage': 'denied', 'analytics_storage': 'denied' });
+     		var bannerselect = document.getElementById('cookiematri-cs-banner'); bannerselect.classList.add('cookiebanner-hide');
+     		document.cookie = "cookieMatriHideBanner=true; max-age=60*60*24*30*6";
+     		gtag('consent', 'update', { 'ad_storage': 'denied', 'analytics_storage': 'denied' });
 	});
 	var acceptelement = document.getElementById('cookiematri-accept');
 	acceptelement.addEventListener("click", function() {
-     var bannerselect = document.getElementById('cookiematri-cs-banner'); bannerselect.classList.add('cookiebanner-hide');
-     gtag('consent', 'update', { 'analytics_storage': 'granted' });
+     		var bannerselect = document.getElementById('cookiematri-cs-banner'); bannerselect.classList.add('cookiebanner-hide');
+     		document.cookie = "cookieMatriHideBanner=true; max-age=60*60*24*30*6";
+     		gtag('consent', 'update', { 'analytics_storage': 'granted' });
 	});
-};*/
+});
 
 //Add onlick property to all cookie preferences links in the footer
-window.onload = function(){ 
+window.addEventListener('load', (event) => {
 	var prefelements = document.getElementsByClassName('cookie-preferences-click');
   	for (var i = 0 ; i < prefelements.length; i++){
   	prefelements[i].addEventListener("click", function() {
         var bannerselect = document.getElementById('cookiematri-cs-banner'); bannerselect.classList.toggle('cookiebanner-hide');
 	});}
-};
+});
+
+//On load, check if cookie exists; if it doesn't, remove hide from banner
+window.addEventListener('load', (event) => {
+  if (!document.cookie.split('; ').find(row => row.startsWith('cookieMatriHideBanner'))) {
+    var bannerselect = document.getElementById('cookiematri-cs-banner'); bannerselect.classList.remove('cookiebanner-hide');
+  }
+});
