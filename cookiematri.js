@@ -37,11 +37,10 @@
 };*/
 
 //Add onlick property to all cookie preferences links in the footer
-/*window.onload = function(){ 
+window.onload = function(){ 
 	var prefelements = document.getElementsByClassName('cookie-preferences-click');
   	for (var i = 0 ; i < prefelements.length; i++){
   	prefelements[i].addEventListener("click", function() {
         var bannerselect = document.getElementById('cookiematri-cs-banner'); bannerselect.classList.toggle('cookiebanner-hide');
 	});}
 };
-*/
