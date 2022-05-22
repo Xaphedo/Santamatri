@@ -23,18 +23,18 @@
     });
 
 //Add onlick property to the cookie consent banner buttons
-window.onload = function(){ 
+/*window.onload = function(){ 
 	var rejectelement = document.getElementById('cookiematri-reject');
 	rejectelement.addEventListener("click", function() {
-     var bannerselect = document.getElementById('cookiematri-cs-banner'); bannerselect.classList.toggle('cookiebanner-hide');
+     var bannerselect = document.getElementById('cookiematri-cs-banner'); bannerselect.classList.add('cookiebanner-hide');
      gtag('consent', 'update', { 'ad_storage': 'denied', 'analytics_storage': 'denied' });
 	});
 	var acceptelement = document.getElementById('cookiematri-accept');
 	acceptelement.addEventListener("click", function() {
-     var bannerselect = document.getElementById('cookiematri-cs-banner'); bannerselect.classList.toggle('cookiebanner-hide');
+     var bannerselect = document.getElementById('cookiematri-cs-banner'); bannerselect.classList.add('cookiebanner-hide');
      gtag('consent', 'update', { 'analytics_storage': 'granted' });
 	});
-};
+};*/
 
 //Add onlick property to all cookie preferences links in the footer
 window.onload = function(){ 
