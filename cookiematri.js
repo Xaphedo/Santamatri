@@ -26,12 +26,12 @@
 window.onload = function(){ 
 	var rejectelement = document.getElementById('cookiematri-reject');
 	rejectelement.addEventListener("click", function() {
-     var bannerselect = document.getElementById('cookiematri-cs-banner'); bannerselect.classList.add('cookiebanner-hide');
+     var bannerselect = document.getElementById('cookiematri-cs-banner'); bannerselect.classList.toggle('cookiebanner-hide');
      gtag('consent', 'update', { 'ad_storage': 'denied', 'analytics_storage': 'denied' });
 	});
 	var acceptelement = document.getElementById('cookiematri-accept');
 	acceptelement.addEventListener("click", function() {
-     var bannerselect = document.getElementById('cookiematri-cs-banner'); bannerselect.classList.add('cookiebanner-hide');
+     var bannerselect = document.getElementById('cookiematri-cs-banner'); bannerselect.classList.toggle('cookiebanner-hide');
      gtag('consent', 'update', { 'analytics_storage': 'granted' });
 	});
 };
