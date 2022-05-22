@@ -35,7 +35,7 @@ IMPORTANT: Changing the following values may prevent the notice from being displ
   /* default */
 }
 
-#cookiematri-cs-banner .cookiematri-cs-container [class^=ckiematri] {
+#cookiematri-cs-banner .cookiematri-cs-container [class^=ckiematri], .cookiematri-cs-btn-primary {
     -webkit-transition: all 900ms cubic-bezier(.23, 1, .32, 1)!important;
     -moz-transition: all 900ms cubic-bezier(.23, 1, .32, 1)!important;
     -o-transition: all 900ms cubic-bezier(.23, 1, .32, 1)!important;
